@@ -11,7 +11,7 @@ public class OdiProcess {
 
     public static void main(String[] args) {
         String driver = "oracle.jdbc.OracleDriver";
-        String sourceUrl = "jdbc:oracle:thin:@localhost:1521/odipdb.localdomain";
+        String sourceUrl = "jdbc:oracle:thin:@10.211.55.2:1521/odipdb.localdomain";
         String sourceSchema = "DEV_ODI_REPO";
         String sourceSchemaPwd = "Welcome1";
         String sourceWorkrep = "WORKREP";
